@@ -1,0 +1,30 @@
+
+.bgc{
+    background: rgb(128, 2, 79);
+}
+.bgc-2{
+    background: rgb(255, 0, 149);
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exe{
+    background: rgb(214, 123, 195);
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+.list{
+    background: rgba(171, 222, 238, 0.61);
+    width: 50%;
+    display: flex;
+    display: grid;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid rgb(170, 170, 170);
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.678);
+}
