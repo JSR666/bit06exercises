@@ -65,6 +65,8 @@ const alert1 = (message, type) => {
     alertPlaceholder2.append(wrapper);
   };
 
+
+
 /* 3.Pedir nombre y edad al usuario,
 si se llama Pepita y es mayor de edad permitir ingreso a sala de espera 1,
 si se llama Pepita y es menor de edad permitir ingreso a sala de espera 2,
@@ -130,6 +132,7 @@ const alert4 = (message, type) => {
     alertPlaceholder4.append(wrapper);
   };
 
+
 function operar(){
     const num1=$exer4Form.num1.value;
     const num2=$exer4Form.num2.value;
@@ -142,6 +145,8 @@ function operar(){
     }
     
 }
+
+
 
 //5.Pedir dos números y mostrar si el primero es divisible por el segundo.
 const $exer5Form=document.getElementById("exer5");
@@ -194,6 +199,8 @@ const alert6 = (message, type) => {
   ].join('');
 
 
+
+
   alertPlaceholder6.append(wrapper);
 }
 function suma(){
@@ -241,6 +248,9 @@ function dividir(){
   }
 }
 
+
+
+
 //7.Pedir un número, mostar la suma desde 1 hasta N 
 
 const $exer7Form=document.getElementById("exer7");
@@ -276,6 +286,8 @@ function sumaTotal(){
   }
     
 }
+
+
 
 //8.Pedir un número, mostar la suma de los números pares desde 1 hasta n. 
 
@@ -335,6 +347,8 @@ const alert9 = (message, type) => {
     alertPlaceholder9.append(wrapper);
   }
 
+
+  
 function impares(){
   const numero1=parseInt($exer9Form.num1.value);
   if(numero1.length==0 || /^\s+$/.test(numero1)|| isNaN(numero1)){
