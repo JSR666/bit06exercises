@@ -41,7 +41,7 @@ function checkPermitido(obj) {
       parseInt(obj.password) === permitido.password &&
       obj.accept === permitido.accept
     ) {
-      window.open('http://127.0.0.1:5501/exercises.html#', '_self');
+      window.open('https://jsr666.github.io/bit06exercises/exercises.html', '_self');
     } else {
       alert(
         'Acceso denegado, usuario no permitido, revisa tus credenciales.',
@@ -53,8 +53,8 @@ function checkPermitido(obj) {
   }
   if (obj) {
     const permitido = {
-      username: 'jhonatansanchez',
-      password: 1234567,
+      username: 'bit',
+      password: 2023,
       accept: true,
     };
     if (
